@@ -10,7 +10,7 @@ CRGB leds[NUM_LEDS];
 
 uint8_t patternCounter = 0;
 
-// Push button connected between pin 7 and GND (no resistor required)
+// Push button connected between pin 9 and GND (no resistor required)
 OneButton btn = OneButton(BTN_PIN, true, true);
 
 
